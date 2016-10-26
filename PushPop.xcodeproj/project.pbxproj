@@ -12,6 +12,12 @@
 		9AAD140A1D94E8B7003C5424 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AAD14081D94E8B7003C5424 /* Main.storyboard */; };
 		9AAD140C1D94E8B7003C5424 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AAD140B1D94E8B7003C5424 /* Assets.xcassets */; };
 		9AAD140F1D94E8B7003C5424 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AAD140D1D94E8B7003C5424 /* LaunchScreen.storyboard */; };
+		9AAD14171D94E978003C5424 /* View2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAD14161D94E978003C5424 /* View2.swift */; };
+		9ABF9D061D961E3C00BCAD0E /* zing-mp3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9ABF9D051D961E3C00BCAD0E /* zing-mp3.jpg */; };
+		9ABF9D081D96210700BCAD0E /* toan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9ABF9D071D96210700BCAD0E /* toan.jpg */; };
+		9ABF9D0A1D96217100BCAD0E /* tai-hinh-nen-hoat-hinh-cho-dien-thoai-iphone-4-mien-phi-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9ABF9D091D96217100BCAD0E /* tai-hinh-nen-hoat-hinh-cho-dien-thoai-iphone-4-mien-phi-3.jpg */; };
+		9ABF9D0C1D9621AC00BCAD0E /* download.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9ABF9D0B1D9621AC00BCAD0E /* download.jpeg */; };
+		9ABF9D0E1D962C1C00BCAD0E /* View3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABF9D0D1D962C1C00BCAD0E /* View3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		9AAD140B1D94E8B7003C5424 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AAD140E1D94E8B7003C5424 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9AAD14101D94E8B7003C5424 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AAD14161D94E978003C5424 /* View2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View2.swift; sourceTree = "<group>"; };
+		9ABF9D051D961E3C00BCAD0E /* zing-mp3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "zing-mp3.jpg"; sourceTree = "<group>"; };
+		9ABF9D071D96210700BCAD0E /* toan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = toan.jpg; sourceTree = "<group>"; };
+		9ABF9D091D96217100BCAD0E /* tai-hinh-nen-hoat-hinh-cho-dien-thoai-iphone-4-mien-phi-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tai-hinh-nen-hoat-hinh-cho-dien-thoai-iphone-4-mien-phi-3.jpg"; sourceTree = "<group>"; };
+		9ABF9D0B1D9621AC00BCAD0E /* download.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = download.jpeg; sourceTree = "<group>"; };
+		9ABF9D0D1D962C1C00BCAD0E /* View3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +66,10 @@
 		9AAD14031D94E8B7003C5424 /* PushPop */ = {
 			isa = PBXGroup;
 			children = (
+				9ABF9D041D961E3400BCAD0E /* hinh */,
 				9AAD14041D94E8B7003C5424 /* AppDelegate.swift */,
+				9AAD14161D94E978003C5424 /* View2.swift */,
+				9ABF9D0D1D962C1C00BCAD0E /* View3.swift */,
 				9AAD14061D94E8B7003C5424 /* ViewController.swift */,
 				9AAD14081D94E8B7003C5424 /* Main.storyboard */,
 				9AAD140B1D94E8B7003C5424 /* Assets.xcassets */,
@@ -62,6 +77,17 @@
 				9AAD14101D94E8B7003C5424 /* Info.plist */,
 			);
 			path = PushPop;
+			sourceTree = "<group>";
+		};
+		9ABF9D041D961E3400BCAD0E /* hinh */ = {
+			isa = PBXGroup;
+			children = (
+				9ABF9D0B1D9621AC00BCAD0E /* download.jpeg */,
+				9ABF9D091D96217100BCAD0E /* tai-hinh-nen-hoat-hinh-cho-dien-thoai-iphone-4-mien-phi-3.jpg */,
+				9ABF9D071D96210700BCAD0E /* toan.jpg */,
+				9ABF9D051D961E3C00BCAD0E /* zing-mp3.jpg */,
+			);
+			name = hinh;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +149,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ABF9D061D961E3C00BCAD0E /* zing-mp3.jpg in Resources */,
+				9ABF9D081D96210700BCAD0E /* toan.jpg in Resources */,
+				9ABF9D0C1D9621AC00BCAD0E /* download.jpeg in Resources */,
 				9AAD140F1D94E8B7003C5424 /* LaunchScreen.storyboard in Resources */,
 				9AAD140C1D94E8B7003C5424 /* Assets.xcassets in Resources */,
+				9ABF9D0A1D96217100BCAD0E /* tai-hinh-nen-hoat-hinh-cho-dien-thoai-iphone-4-mien-phi-3.jpg in Resources */,
 				9AAD140A1D94E8B7003C5424 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,7 +166,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ABF9D0E1D962C1C00BCAD0E /* View3.swift in Sources */,
 				9AAD14071D94E8B7003C5424 /* ViewController.swift in Sources */,
+				9AAD14171D94E978003C5424 /* View2.swift in Sources */,
 				9AAD14051D94E8B7003C5424 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +329,7 @@
 				9AAD14151D94E8B7003C5424 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
